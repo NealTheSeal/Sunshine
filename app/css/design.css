@@ -1,0 +1,62 @@
+@font-face {
+   font-family: Cousine; 
+   src: url("../fonts/Cousine/Cousine-Regular.ttf");
+}
+
+@font-face {
+   font-family: Cousine; 
+   font-weight: bold;
+   src: url("../fonts/Cousine/Cousine-Bold.ttf");
+}
+
+* {
+   font-family: Cousine;
+}
+
+body {
+   background: #FDFDFD;
+   margin: 0px 0px 0px 0px;
+}
+
+.title {
+   width: 100%;
+   background: #00c1fc;
+}
+
+.header {
+   max-width: 500px;
+   margin: auto;
+}
+
+.task-input {
+   padding: 10px 5px 10px 5px;
+}
+
+.text-box {
+   width: 70%;
+}
+
+.content {
+   max-width: 500px;
+   margin: auto;
+}
+
+.card {
+    height: 150px;
+    width: 100%;
+    box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+    overflow: hidden;
+    background: white;
+}
+
+.card:hover {
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    overflow: hidden;
+}

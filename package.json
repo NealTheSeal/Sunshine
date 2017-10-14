@@ -1,0 +1,12 @@
+{
+  "name": "sunshine",
+  "version": "0.1.0",
+  "description": "The start of something great",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron ."
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
