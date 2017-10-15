@@ -18,14 +18,17 @@ body {
    margin: 0px 0px 0px 0px;
 }
 
+.site-container {
+    max-width: 950px;
+    margin: auto;
+ }
+
+
+/* heading styles */
+
 .title {
    width: 100%;
    background: #00c1fc;
-}
-
-.header {
-   max-width: 500px;
-   margin: auto;
 }
 
 .task-input {
@@ -33,12 +36,56 @@ body {
 }
 
 .text-box {
-   width: 70%;
+   width: 85%;
 }
 
-.content {
-   max-width: 500px;
-   margin: auto;
+.beget {
+    width: 10%;
+    float: right;
+}
+
+/* Task styles */
+
+.middle {
+    width: 100%;
+    background: #a3a3a3;
+ }
+
+.task-content {
+    max-height: 532px;
+    padding: 10px 5px 10px 5px;
+}
+
+.card-list {
+   width: 40%;
+   height: 100%;
+   margin: 0px;
+   overflow-y: auto;
+}
+
+.notes {
+    max-height: 500px;
+    max-width: 500px;
+    float: right;
+    padding: 16px;
+    box-shadow: 1px 4px 8px 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px 0px 0px 0px;
+    overflow-y: auto;
+    background: white;
+}
+
+.notes:hover {
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+}
+
+/* card styles */
+
+.container {
+    padding: 2px 16px;
+    overflow: hidden;
 }
 
 .card {
@@ -54,9 +101,4 @@ body {
 
 .card:hover {
     box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
-}
-
-.container {
-    padding: 2px 16px;
-    overflow: hidden;
 }

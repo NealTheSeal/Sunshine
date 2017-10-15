@@ -7,6 +7,8 @@ for(var x=0; x < tempdata.length; x++)
    generateTaskCards(tempdata[x]);
 }
 
+// todo: dynamically set the notes size based on screen size
+
 function generateTaskCards(data) {
    var text = document.createTextNode(data);
 
@@ -18,7 +20,7 @@ function generateTaskCards(data) {
    div.setAttribute("class", "card");
    div.appendChild(p);
 
-   var temp = document.getElementsByClassName("content")[0].appendChild(div);
+   var temp = document.getElementsByClassName("card-list")[0].appendChild(div);
    console.log(temp)
 }
 

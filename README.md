@@ -1,4 +1,9 @@
-Welcome to the Future
-=====================
+# Welcome to the Future
 
-Think back to when the internet was just being discovered, lets get back to that!
+Lets make life great again!
+
+## todo
+
+- [ ] ui design and updates
+- [ ] backend capable of saving tasks, exporting, and importing
+- [ ] data analysis and display

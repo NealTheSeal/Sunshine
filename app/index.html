@@ -6,18 +6,30 @@
    <link rel="stylesheet" href="css/design.css">
 </head>
 
-<body>
+<body> <!-- main content -->
+
 <div class="title">
-   <div class="header">
+   <div class="site-container">
       <div class="task-input">
          <h2>add a topic</h2>
          <input class="text-box" id="taskInput" type="text">
-         <button onclick="addTask()">Compose</button>
+         <button class="beget" onclick="addTask()">Compose</button>
       </div>
    </div> 
 </div>   
-<div class="content">
+
+<div class="middle">
+    <div class="site-container">
+        <div class="task-contet">
+            <div class="card-list">
+            </div>
+            <div class="notes" contenteditable="true">
+            </div>
+        </div>
+    </div>
 </div>
-</body>
+
+</body> <!-- end main content -->
+
 <script src="js/index.js"></script>
 </html>
